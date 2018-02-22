@@ -1,3 +1,7 @@
-# cruorin
+# Cruorin
 
-a light extensible cache proxy server
+`Cruorin` is a lightweight extensible cache proxy server.
+
+## Usage
+
+
