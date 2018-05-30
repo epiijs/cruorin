@@ -1,6 +1,6 @@
 {
   "name": "cruorin",
-  "version": "1.2.0",
+  "version": "1.2.2",
   "description": "a light extensible cache proxy server",
   "main": "index.js",
   "scripts": {
