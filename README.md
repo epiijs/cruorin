@@ -1,5 +1,8 @@
 # Cruorin
 
+[![Build Status](https://travis-ci.org/sartrey/cruorin.svg?branch=master)](https://travis-ci.org/sartrey/cruorin)
+[![Coverage Status](https://coveralls.io/repos/github/sartrey/cruorin/badge.svg?branch=master)](https://coveralls.io/github/sartrey/cruorin?branch=master)
+
 `Cruorin` is a lightweight extensible cache proxy server.
 
 ## Start

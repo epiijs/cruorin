@@ -1,3 +1,3 @@
-module.exports = {
-  Server: require('./lib/Server.js')
-}
+const Server = require('./lib/Server.js');
+
+module.exports = { Server };
