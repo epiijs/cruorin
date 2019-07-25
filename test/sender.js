@@ -22,7 +22,7 @@ function sendAndTest(define) {
     };
     options.body = JSON.stringify(input.data);
   }
-  return fetch(`http://localhost:${input.port}${input.path}`, options)
+  return fetch(`http://${input.host || 'localhost'}:${input.port}${input.path}`, options)
     .then((response) => {
       if (output.head != null) {
         Object.keys(output.head).forEach((key) => {
