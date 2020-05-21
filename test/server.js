@@ -12,19 +12,22 @@ const server = http.createServer((request, response) => {
     response.writeHead(200);
     response.end('/hello ' + state.helloCount);
     state.helloCount += 1;
-    return console.log('[mock]', 'hello');
+    console.log('[mock]', 'hello');
+    return;
   }
   if (url === '/cache') {
     response.writeHead(200);
     response.end('/cache ' + state.cacheCount);
     state.cacheCount += 1;
-    return console.log('[mock]', 'cache');
+    console.log('[mock]', 'cache');
+    return;
   }
   if (url === '/error') {
     response.writeHead(400);
     response.end('/error ' + state.errorCount);
     state.errorCount += 1;
-    return console.log('[mock]', 'error');
+    console.log('[mock]', 'error');
+    return;
   }
   if (url === '/timer') {
     setTimeout(() => {

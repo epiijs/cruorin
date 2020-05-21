@@ -1,7 +1,7 @@
 {
   "name": "cruorin",
-  "version": "1.6.1",
-  "description": "a light extensible cache proxy server",
+  "version": "2.0.0",
+  "description": "A light extensible cache proxy server.",
   "main": "index.js",
   "scripts": {
     "dev": "node start.js",
@@ -26,19 +26,17 @@
   "homepage": "https://github.com/sartrey/cruorin#readme",
   "dependencies": {
     "crc": "^3.8.0",
-    "lru-cache": "^4.1.5",
-    "node-fetch": "^2.6.0",
-    "uuid": "^3.3.2"
+    "lru-cache": "^5.1.1",
+    "node-fetch": "^2.6.0"
   },
   "optionalDependencies": {
     "pm2": "^4.1.2"
   },
   "devDependencies": {
     "coveralls": "^3.0.5",
-    "eslint": "^5.16.0",
-    "eslint-config-airbnb-base": "^13.2.0",
-    "eslint-plugin-import": "^2.18.2",
-    "mocha": "^5.2.0",
-    "nyc": "^12.0.2"
+    "eslint": "^7.0.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "mocha": "^7.1.2",
+    "nyc": "^15.0.1"
   }
 }

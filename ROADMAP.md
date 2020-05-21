@@ -7,9 +7,7 @@
 4. hook interface (ok)
 
 ## Milestone 1
-1. admin http command
-2. statistical report
-3. fully test
+1. fully test
 
 ## Milestone 2
 1. auto neighbour found (udp)

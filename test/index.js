@@ -63,7 +63,7 @@ describe('simple proxy', () => {
   it('proxy error', () => sender.sendAndTest({
     input: {
       port: '9999',
-      path: '/error',
+      path: '/error'
     },
     output: {
       code: 400,
