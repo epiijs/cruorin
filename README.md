@@ -5,12 +5,11 @@
 
 `Cruorin` is a lightweight extensible cache proxy server.
 
-## Start
+![Cruorin1](https://raw.githubusercontent.com/gaapx/cruorin/master/docs/cruorin1.png)
 
-`IncomingMessage` = `Request`.  
-`OutgoingMessage` = `Response`.  
+`Cruorin` provides an efficient proxy mechanism by reducing concurrent requests into one request and exposes necessary hooks to control the proxy flow and cache policy. All hooks only operate simplify request and response concept called `IncomingMessage` and `OutgonigMessage`.
 
-TODO - place chart here.
+`Cruorin` only proxy `GET` requests.
 
 ## Usage
 
@@ -24,38 +23,45 @@ TODO - place chart here.
 const { Server } = require('cruorin');
 
 class MyServer extends Server {
-  inferUpstream(message) {
+  reviseRequest(message) {
+    // => localhost:9999/?ts=1
+    // infer upstream
     message.headers.host = message.headers.host.replace('9999', '8080');
+    // remove timestamp
+    message.url = message.url.replace(/\??ts=[^&]+&?/, '');
+    // <= localhost:8080/?
     return message;
   }
 }
 
 const server = new MyServer();
-server.listen(9999, function () {})
+server.listen(9999);
 ```
 
-## Policy
+## API
 
-### reviseRequest
+### reviseRequest(message): message
 
-To revise request for internal request id.
+Required.  
+`reviseRequest` is invoked before transmitting message. `Cruorin` will revise request result to request upstream and generate internal request id as cache key.  
+You can revise incoming message to apply upstream and reduce cache-unrelated request information.
 
-### inferUpstream
+### canCacheError(message): boolean
 
-To infer upstream and edit request.
+Optional, default `false`.  
+`canCacheError` is invoked before writing cache. `true` means that 4xx / 5xx error responses will be cached.
 
-### getCachePolicy
+### getCachePolicy(message): policy { maxage, pragma }
 
-To set response cache headers for specified request.
+Optional, default `{ maxage: 3600, pragma: public }`.  
+`getCachePolicy` is invoked before writing cache. You can set cache policy for specified request.
 
-### mustSkipCache
+### mustSkipCache(message): boolean
 
-To skip cache for specified request.
+Optional, default `false`.  
+`mustSkipCache` is invoked before looking up cache. `true` means NO cache.
 
-### mustWaitAgent
+### mustWaitAgent(message): boolean
 
-To skip agent for specified request.  
-
-### mustSkipError
-
-To ignore response error for agent and cache.
+Optional, default `true`.  
+`false` means that `Cruorin` will not wait for upstream and will output a temporary message immediately before upstream responding.

@@ -90,7 +90,7 @@ describe('simple proxy', () => {
     },
     output: {
       code: 200,
-      text: 'localhost:9999/cache purged'
+      text: 'localhost:8080/cache purged'
     }
   }));
 
@@ -103,18 +103,6 @@ describe('simple proxy', () => {
     output: {
       code: 403,
       text: 'not implemented'
-    }
-  }));
-
-  it('purge same path url cache, succeeded', () => sender.sendAndTest({
-    input: {
-      port: 9999,
-      path: '/hello',
-      verb: 'DELETE'
-    },
-    output: {
-      code: 200,
-      text: 'localhost:9999/hello,127.0.0.1:9999/hello purged'
     }
   }));
 });

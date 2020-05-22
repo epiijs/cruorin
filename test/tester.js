@@ -8,7 +8,7 @@ class Tester extends Server {
     return false;
   }
 
-  inferUpstream(message) {
+  reviseRequest(message) {
     message.headers.host = message.headers.host.replace('9999', '8080');
     return message;
   }
