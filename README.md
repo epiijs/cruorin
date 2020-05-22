@@ -5,7 +5,7 @@
 
 `Cruorin` is a lightweight extensible cache proxy server.
 
-![Cruorin1](https://raw.githubusercontent.com/gaapx/cruorin/master/docs/cruorin1.png)
+![cruorin1](https://raw.githubusercontent.com/gaapx/cruorin/master/docs/cruorin1-small.png)
 
 `Cruorin` provides an efficient proxy mechanism by reducing concurrent requests into one request and exposes necessary hooks to control the proxy flow and cache policy. All hooks only operate simplify request and response concept called `IncomingMessage` and `OutgonigMessage`.
 
