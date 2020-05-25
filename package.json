@@ -1,9 +1,10 @@
 {
   "name": "cruorin",
-  "version": "2.1.0",
+  "version": "2.2.0",
   "description": "A light extensible HTTP GET reverse proxy cache server.",
   "main": "lib/index.js",
   "scripts": {
+    "play": "node start.js",
     "lint": "eslint .",
     "test": "eslint . && nyc --reporter=lcov mocha test/index.js --exit",
     "lcov": "nyc report --reporter=text-lcov | coveralls"

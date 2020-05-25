@@ -69,3 +69,30 @@ Cache policy can be set for specified request.
 
 **Optional, default `true`.**  
 `false` means that `Cruorin` will NOT wait for upstream and output a temporary message immediately before upstream responding.
+
+## Benchmark
+
+The following table shows QPS of high concurrency simple request in 20 seconds.  
+The stress test tool is `wrk`.  
+
+(2020/05/29, MacBook Pro 2019)
+
+```sh
+brew install wrk
+npm run play
+
+# 3000 is a fast server
+wrk -t 4 -c 300 -d 20 http://localhost:3000
+
+# 3001 is a slow server with 1000ms latency
+wrk -t 4 -c 300 -d 20 http://localhost:3001
+
+# 3002 is a crourin server to 3001
+wrk -t 4 -c 300 -d 20 http://localhost:3002
+```
+
+|name|QPS|
+|-|-|
+|fast|39700|
+|slow|230|
+|cruorin|28800|
