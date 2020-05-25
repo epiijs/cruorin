@@ -1,17 +1,16 @@
 {
   "name": "cruorin",
-  "version": "2.0.1",
-  "description": "A light extensible cache proxy server.",
-  "main": "index.js",
+  "version": "2.1.0",
+  "description": "A light extensible HTTP GET reverse proxy cache server.",
+  "main": "lib/index.js",
   "scripts": {
-    "dev": "node start.js",
     "lint": "eslint .",
     "test": "eslint . && nyc --reporter=lcov mocha test/index.js --exit",
     "lcov": "nyc report --reporter=text-lcov | coveralls"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sartrey/cruorin.git"
+    "url": "git+https://github.com/gaapx/cruorin.git"
   },
   "keywords": [
     "cache",
@@ -21,22 +20,19 @@
   "author": "Sartrey Lee",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/sartrey/cruorin/issues"
+    "url": "https://github.com/gaapx/cruorin/issues"
   },
-  "homepage": "https://github.com/sartrey/cruorin#readme",
+  "homepage": "https://github.com/gaapx/cruorin#readme",
   "dependencies": {
     "crc": "^3.8.0",
     "lru-cache": "^5.1.1",
     "node-fetch": "^2.6.0"
   },
-  "optionalDependencies": {
-    "pm2": "^4.1.2"
-  },
   "devDependencies": {
     "coveralls": "^3.0.5",
-    "eslint": "^7.0.0",
+    "eslint": "^7.1.0",
     "eslint-config-airbnb-base": "^14.1.0",
-    "mocha": "^7.1.2",
+    "mocha": "^7.2.0",
     "nyc": "^15.0.1"
   }
 }

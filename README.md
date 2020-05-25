@@ -42,25 +42,30 @@ server.listen(9999);
 
 ### reviseRequest(message): message
 
-Required.  
-`reviseRequest` is invoked before transmitting message. `Cruorin` will use revised incoming message to emit request and generate internal request hash as cache key.  
+**Required.**  
+`reviseRequest` is invoked before transmitting message.  
+`Cruorin` will use revised incoming message to emit request and generate internal request hash as cache key.  
 
 ### canCacheError(message): boolean
 
-Optional, default `false`.  
-`canCacheError` is invoked before writing cache. `true` means that 4xx / 5xx error responses will be cached.
+**Optional, default `false`.**  
+`canCacheError` is invoked before writing cache.  
+`true` means that 4xx / 5xx error responses will be cached.
 
 ### getCachePolicy(message): policy { maxage, pragma }
 
-Optional, default `{ maxage: 3600, pragma: public }`, `maxage` uses milliseconds.  
-`getCachePolicy` is invoked before writing cache. Cache policy can be set for specified request.
+**Optional, default `{ maxage: 3600, pragma: public }`.**  
+`maxage` uses milliseconds.  
+`getCachePolicy` is invoked before writing cache.  
+Cache policy can be set for specified request.
 
 ### mustSkipCache(message): boolean
 
-Optional, default `false`.  
-`mustSkipCache` is invoked before looking up cache. `true` means NO cache.
+**Optional, default `false`.**  
+`mustSkipCache` is invoked before looking up cache.  
+`true` means NO cache.
 
 ### mustWaitAgent(message): boolean
 
-Optional, default `true`.  
-`false` means that `Cruorin` will NOT wait for upstream and will output a temporary message immediately before upstream responding.
+**Optional, default `true`.**  
+`false` means that `Cruorin` will NOT wait for upstream and output a temporary message immediately before upstream responding.
