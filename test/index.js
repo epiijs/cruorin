@@ -10,7 +10,7 @@ describe('simple proxy', () => {
   let tester;
 
   it('start proxy', () => {
-    tester = new Tester();
+    tester = new Tester({ rootdir: '/tmp/cruorin' });
     tester.listen(9999);
   });
 

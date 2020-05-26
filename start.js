@@ -30,7 +30,7 @@ class CacheServer extends Server {
 
 function startCacheServer() {
   const server = new CacheServer({
-    rootDir: '/tmp/cruorin'
+    rootdir: '/tmp/cruorin'
   });
   server.listen(3002);
 }
