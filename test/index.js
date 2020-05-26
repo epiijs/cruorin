@@ -101,8 +101,7 @@ describe('simple proxy', () => {
       verb: 'POST'
     },
     output: {
-      code: 403,
-      text: 'not implemented'
+      code: 405
     }
   }));
 });
