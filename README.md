@@ -7,7 +7,7 @@
 
 ![cruorin1](https://raw.githubusercontent.com/gaapx/cruorin/master/docs/cruorin1.svg)
 
-`Cruorin` provides an efficient proxy mechanism by reducing concurrent requests into one request and exposes necessary hooks to control the proxy flow and cache policy. All hooks only operate simplify request and response concept called `IncomingMessage` and `OutgonigMessage`.
+`Cruorin` provides an efficient proxy mechanism by reducing concurrent requests into one request and exposes necessary hooks to control the proxy flow and cache policy. All hooks only operate simplified object of request and response called `IncomingMessage` and `OutgoingMessage`.
 
 `Cruorin` only proxy and cache `GET` requests. Cache will be persisted by writing to file and cache key is hash of incoming message URL with host.  
 
