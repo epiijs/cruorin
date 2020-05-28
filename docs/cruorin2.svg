@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="365px" height="400px" viewBox="0 0 365 400" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>s</title>
+    <g id="cruorin2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path id="line" d="M86,34 L86,51 L92,51 L85,65 L78,51 L84,51 L84,34 L86,34 Z" fill="#979797" fill-rule="nonzero"></path>
+        <path id="line" d="M196.06999,75.861736 L210,83 L195.931383,89.8610499 L195.99,83.861 L159.490099,83.499951 L158.490149,83.4900505 L158.50995,81.4901485 L159.509901,81.500049 L196.01,81.861 L196.06999,75.861736 Z" fill="#979797" fill-rule="nonzero"></path>
+        <path id="line" d="M86,100 L86,116 L92,116 L85,130 L78,116 L84,116 L84,100 L86,100 Z" fill="#979797" fill-rule="nonzero"></path>
+        <path id="line" d="M285,177 L285,189 L291,189 L284,203 L277,189 L283,189 L283,177 L285,177 Z" fill="#979797" fill-rule="nonzero"></path>
+        <path id="line" d="M86,334 L86,351 L92,351 L85,365 L78,351 L84,351 L84,334 L86,334 Z" fill="#979797" fill-rule="nonzero"></path>
+        <g id="line" transform="translate(120.000000, 228.000000)">
+            <text id="t" font-family="Helvetica-BoldOblique, Helvetica" font-size="8" font-style="italic" font-weight="bold" fill="#6D7278">
+                <tspan x="65" y="8">Y</tspan>
+            </text>
+            <path d="M90,4 L90,6 L89,6 C82.7324353,6 76.5862707,9.43461759 69.968275,16.1696331 C64.8705121,21.3575349 60.8661616,26.6532283 52.1890647,39.0727288 C51.8693978,39.5302774 51.8693978,39.5302774 51.5496737,39.9878273 C43.218451,51.9091326 39.0418705,57.4042073 33.924702,62.5756808 C27.276548,69.2943872 20.9676668,72.8559452 14.4022875,72.9957201 L14,73 L14,79 L0,72 L14,65 L14,71 C20.0787438,71 26.0589718,67.6814098 32.5030438,61.1689513 C37.5117689,56.1070719 41.6462772,50.6673513 49.9103258,38.8421666 C50.2299073,38.3848207 50.2299073,38.3848207 50.5495749,37.9272712 C59.294134,25.4112123 63.3368783,20.0647435 68.5417227,14.7678669 C75.3632945,7.82567562 81.8383578,4.1458866 88.5943013,4.0042502 L89,4 L90,4 Z" fill="#979797" fill-rule="nonzero"></path>
+        </g>
+        <g id="line" transform="translate(164.500000, 263.000000)">
+            <text id="t" font-family="Helvetica-BoldOblique, Helvetica" font-size="8" font-style="italic" font-weight="bold" fill="#6D7278">
+                <tspan x="109.5" y="18">N</tspan>
+            </text>
+            <path d="M118.504264,-1.00424623 L120.504246,-0.995735666 L120.499991,0.00425528062 L119.999991,117.504255 L119.995754,118.5 L14,118.5 L14,124.5 L0,117.5 L14,110.5 L14,116.5 L118.004,116.5 L118.500009,-0.00425528062 L118.504264,-1.00424623 Z" fill="#979797" fill-rule="nonzero"></path>
+        </g>
+        <g id="line" transform="translate(74.000000, 189.750000)">
+            <text id="t" font-family="Helvetica-BoldOblique, Helvetica" font-size="8" font-style="italic" font-weight="bold" fill="#6D7278">
+                <tspan x="0" y="16.25">N</tspan>
+            </text>
+            <path id="l" d="M9.75673378,-0.506688738 L11.7566887,-0.493266221 L11.7499775,0.506711258 L11.344,61.007 L17.3438,61.0472941 L10.25,75 L3.34411526,60.9533365 L9.344,60.993 L9.75002252,0.493288742 L9.75673378,-0.506688738 Z" fill="#979797" fill-rule="nonzero"></path>
+        </g>
+        <g id="line" transform="translate(160.000000, 148.000000)">
+            <text id="t" font-family="Helvetica-BoldOblique, Helvetica" font-size="8" font-style="italic" font-weight="bold" fill="#6D7278">
+                <tspan x="15" y="8">Y</tspan>
+            </text>
+            <path id="l" d="M36,5 L50,12 L36,19 L36,13 L-1,13 L-1,11 L36,11 L36,5 Z" fill="#979797" fill-rule="nonzero"></path>
+        </g>
+        <g id="im" transform="translate(5.000000, 5.000000)">
+            <rect id="r" fill="#0050BD" x="0" y="0" width="160" height="30" rx="15"></rect>
+            <text id="t" font-family="Helvetica-Oblique, Helvetica" font-size="14" font-style="italic" font-weight="normal" fill="#FFFFFF">
+                <tspan x="23" y="20">IncomingMessage</tspan>
+            </text>
+        </g>
+        <g id="om" transform="translate(5.000000, 365.000000)">
+            <rect id="r" fill="#0050BD" x="0" y="0" width="160" height="30" rx="15"></rect>
+            <text id="t" font-family="Helvetica-Oblique, Helvetica" font-size="14" font-style="italic" font-weight="normal" fill="#FFFFFF">
+                <tspan x="23" y="21">OutgoingMessage</tspan>
+            </text>
+        </g>
+        <g id="o-rr" transform="translate(10.000000, 65.000000)">
+            <rect id="r" stroke="#FA6400" stroke-width="2" fill="#FFFFFF" x="1" y="1" width="148" height="34"></rect>
+            <text id="t" font-family="Helvetica-Oblique, Helvetica" font-size="14" font-style="italic" font-weight="normal" fill="#6D7278">
+                <tspan x="30" y="22">reviseRequest</tspan>
+            </text>
+        </g>
+        <g id="o-msc" transform="translate(10.000000, 130.000000)">
+            <path d="M75,1.07703296 L2.6925824,30 L75,58.922967 L147.307418,30 L75,1.07703296 Z" id="r" stroke="#FA6400" stroke-width="2" fill="#FFFFFF"></path>
+            <text id="t" font-family="Helvetica-Oblique, Helvetica" font-size="14" font-style="italic" font-weight="normal" fill="#6D7278">
+                <tspan x="25" y="34.9">mustSkipCache</tspan>
+            </text>
+        </g>
+        <g id="o-mwa" transform="translate(209.000000, 203.000000)">
+            <path d="M75,1.07703296 L2.6925824,30 L75,58.922967 L147.307418,30 L75,1.07703296 Z" id="r" stroke="#FA6400" stroke-width="2" fill="#FFFFFF"></path>
+            <text id="t" font-family="Helvetica-Oblique, Helvetica" font-size="14" font-style="italic" font-weight="normal" fill="#6D7278">
+                <tspan x="27" y="35">mustWaitAgent</tspan>
+            </text>
+        </g>
+        <g id="i-pr" transform="translate(209.000000, 142.000000)">
+            <rect id="r" stroke="#6AA400" stroke-width="2" fill="#FFFFFF" x="1" y="1" width="148" height="34"></rect>
+            <text id="t" font-family="Helvetica-Oblique, Helvetica" font-size="14" font-style="italic" font-weight="normal" fill="#6D7278">
+                <tspan x="32" y="23">proxy request</tspan>
+            </text>
+        </g>
+        <g id="i-rh" transform="translate(210.000000, 65.000000)">
+            <rect id="r" stroke="#6AA400" stroke-width="2" fill="#FFFFFF" x="1" y="1" width="148" height="34"></rect>
+            <text id="t" font-family="Helvetica-Oblique, Helvetica" font-size="14" font-style="italic" font-weight="normal" fill="#6D7278">
+                <tspan x="15" y="23">key = request hash</tspan>
+            </text>
+        </g>
+        <g id="i-c" transform="translate(50.000000, 265.000000)">
+            <circle id="e" stroke="#6AA400" stroke-width="3" fill="#FFFFFF" cx="35" cy="35" r="33.5"></circle>
+            <text id="t" font-family="Helvetica-BoldOblique, Helvetica" font-size="14" font-style="italic" font-weight="bold" fill="#6D7278">
+                <tspan x="13" y="40">Cache</tspan>
+            </text>
+        </g>
+        <g id="i-rc" transform="translate(45.000000, 215.000000)">
+            <rect id="r" fill="#6AA400" x="0" y="0" width="80" height="24" rx="12"></rect>
+            <text id="t" font-family="Helvetica-Oblique, Helvetica" font-size="12" font-style="italic" font-weight="normal" fill="#FFFFFF">
+                <tspan x="10" y="16">read cache</tspan>
+            </text>
+        </g>
+        <g id="i-wc" transform="translate(131.000000, 254.000000)">
+            <rect id="矩形" fill="#6AA400" x="0" y="0" width="80" height="24" rx="12"></rect>
+            <text id="write-cache" font-family="Helvetica-Oblique, Helvetica" font-size="12" font-style="italic" font-weight="normal" fill="#FFFFFF">
+                <tspan x="10" y="16">write cache</tspan>
+            </text>
+        </g>
+        <g id="i-tr" transform="translate(244.000000, 298.000000)">
+            <rect id="r" fill="#6AA400" x="0" y="0" width="80" height="24" rx="12"></rect>
+            <text id="t" font-family="Helvetica-Oblique, Helvetica" font-size="12" font-style="italic" font-weight="normal" fill="#FFFFFF">
+                <tspan x="10" y="16">temp reply</tspan>
+            </text>
+        </g>
+    </g>
+</svg>

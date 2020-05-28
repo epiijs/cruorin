@@ -7,7 +7,7 @@
 
 ![cruorin1](https://raw.githubusercontent.com/gaapx/cruorin/master/docs/cruorin1.svg)
 
-`Cruorin` provides an efficient proxy mechanism by reducing concurrent requests into one request and exposes necessary hooks to control the proxy flow and cache policy. All hooks only operate simplified object of request and response called `IncomingMessage` and `OutgoingMessage`.
+`Cruorin` provides an efficient proxy mechanism by throttling concurrent requests in one request window. Also `Cruorin` exposes necessary hooks to control the proxy flow and cache policy. All hooks only operate simplified object of request and response called `IncomingMessage` and `OutgoingMessage`.
 
 `Cruorin` only proxy and cache `GET` requests. Cache will be persisted by writing to file and cache key is hash of incoming message URL with host.  
 
@@ -17,7 +17,7 @@
 
 `npm install --save cruorin`
 
-### write proxy & cache policies
+### specify policies of proxy & cache
 
 ```js
 const { Server } = require('cruorin');
@@ -29,7 +29,7 @@ class MyServer extends Server {
     message.headers.host = message.headers.host.replace('9999', '8080');
     // remove timestamp
     message.url = message.url.replace(/\??ts=[^&]+&?/, '');
-    // <= localhost:8080/?
+    // <= localhost:8080/
     return message;
   }
 }
@@ -39,6 +39,8 @@ server.listen(9999);
 ```
 
 ## API
+
+![cruorin2](https://raw.githubusercontent.com/gaapx/cruorin/master/docs/cruorin2.svg)
 
 ### reviseRequest(message): message
 
@@ -52,11 +54,11 @@ server.listen(9999);
 `canCacheError` is invoked before writing cache.  
 `true` means that 4xx / 5xx error responses will be cached.
 
-### getCachePolicy(message): policy { maxage, pragma }
+### policyOfCache(message): policy { maxage, action }
 
-**Optional, default `{ maxage: 3600, pragma: public }`.**  
+**Optional, default `{ maxage: 3600, action: 'public' }`.**  
 `maxage` uses milliseconds.  
-`getCachePolicy` is invoked before writing cache.  
+`policyOfCache` is invoked before writing cache.  
 Cache policy can be set for specified request.
 
 ### mustSkipCache(message): boolean

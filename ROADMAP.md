@@ -5,4 +5,8 @@
 2. quick reply for slow backend (ok)
 3. connection cache (ok)
 4. hook interface (ok)
-5. fully test
+
+## Milestone 1
+1. cache policy
+2. fully test
+
