@@ -7,6 +7,6 @@
 4. hook interface (ok)
 
 ## Milestone 1
-1. cache policy
+1. cache policy (ok)
 2. fully test
 

@@ -5,11 +5,6 @@ declare namespace cruorin {
     headers: any,
   }
 
-  interface CachePolicy {
-    maxage: number,
-    action: string
-  }
-
   interface Options {
     rootdir?: string,
     timeout?: number,
@@ -21,14 +16,10 @@ declare namespace cruorin {
     listen(port: number, callback?: () => void): void;
 
     reviseRequest(message: IncomingMessage): IncomingMessage;
-
-    canCacheError(message: IncomingMessage): boolean;
   
-    policyOfCache(message: IncomingMessage): CachePolicy;
+    willApplyCache(message: IncomingMessage): boolean;
   
-    mustSkipCache(message: IncomingMessage): boolean;
-  
-    mustWaitAgent(message: IncomingMessage): boolean;
+    willAwaitAgent(message: IncomingMessage): boolean;
   }
 }
 

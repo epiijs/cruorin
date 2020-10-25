@@ -1,4 +1,7 @@
+/* eslint-disable */
+
 const http = require('http');
+const { Server } = require('../lib');
 
 const state = {
   helloCount: 0,
@@ -37,4 +40,19 @@ const server = http.createServer((request, response) => {
   }
 });
 
-module.exports = server;
+class Tester extends Server {
+  reviseRequest(message) {
+    message.headers.host = message.headers.host.replace('9999', '8080');
+    return message;
+  }
+
+  willApplyCache(incoming, outgoing) {
+    if (incoming.url === '/hello') return false;
+    if (outgoing && outgoing.status > 399) return false;
+    return true;
+  }
+}
+
+module.exports = {
+  server, Tester
+};
