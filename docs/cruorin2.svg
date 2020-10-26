@@ -1,97 +1,108 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="365px" height="400px" viewBox="0 0 365 400" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="380px" height="385px" viewBox="0 0 380 385" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <title>s</title>
     <g id="cruorin2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <path id="line" d="M86,34 L86,51 L92,51 L85,65 L78,51 L84,51 L84,34 L86,34 Z" fill="#979797" fill-rule="nonzero"></path>
-        <path id="line" d="M196.06999,75.861736 L210,83 L195.931383,89.8610499 L195.99,83.861 L159.490099,83.499951 L158.490149,83.4900505 L158.50995,81.4901485 L159.509901,81.500049 L196.01,81.861 L196.06999,75.861736 Z" fill="#979797" fill-rule="nonzero"></path>
-        <path id="line" d="M86,100 L86,116 L92,116 L85,130 L78,116 L84,116 L84,100 L86,100 Z" fill="#979797" fill-rule="nonzero"></path>
-        <path id="line" d="M285,177 L285,189 L291,189 L284,203 L277,189 L283,189 L283,177 L285,177 Z" fill="#979797" fill-rule="nonzero"></path>
-        <path id="line" d="M86,334 L86,351 L92,351 L85,365 L78,351 L84,351 L84,334 L86,334 Z" fill="#979797" fill-rule="nonzero"></path>
-        <g id="line" transform="translate(120.000000, 228.000000)">
-            <text id="t" font-family="Helvetica-BoldOblique, Helvetica" font-size="8" font-style="italic" font-weight="bold" fill="#6D7278">
-                <tspan x="65" y="8">Y</tspan>
-            </text>
-            <path d="M90,4 L90,6 L89,6 C82.7324353,6 76.5862707,9.43461759 69.968275,16.1696331 C64.8705121,21.3575349 60.8661616,26.6532283 52.1890647,39.0727288 C51.8693978,39.5302774 51.8693978,39.5302774 51.5496737,39.9878273 C43.218451,51.9091326 39.0418705,57.4042073 33.924702,62.5756808 C27.276548,69.2943872 20.9676668,72.8559452 14.4022875,72.9957201 L14,73 L14,79 L0,72 L14,65 L14,71 C20.0787438,71 26.0589718,67.6814098 32.5030438,61.1689513 C37.5117689,56.1070719 41.6462772,50.6673513 49.9103258,38.8421666 C50.2299073,38.3848207 50.2299073,38.3848207 50.5495749,37.9272712 C59.294134,25.4112123 63.3368783,20.0647435 68.5417227,14.7678669 C75.3632945,7.82567562 81.8383578,4.1458866 88.5943013,4.0042502 L89,4 L90,4 Z" fill="#979797" fill-rule="nonzero"></path>
+        <g id="lines" transform="translate(86.000000, 34.500000)" fill="#979797" fill-rule="nonzero">
+            <path id="line" d="M2,-0.5 L2,16.5 L8,16.5 L1,30.5 L-6,16.5 L0,16.5 L0,-0.5 L2,-0.5 Z"></path>
+            <path id="line" d="M112.06999,41.361736 L126,48.5 L111.931383,55.3610499 L111.99,49.361 L75.4900995,48.999951 L74.4901485,48.9900505 L74.5099495,46.9901485 L75.5099005,47.000049 L112.01,47.361 L112.06999,41.361736 Z"></path>
+            <path id="line" d="M2,65.5 L2,77.5 L8,77.5 L1,91.5 L-6,77.5 L0,77.5 L0,65.5 L2,65.5 Z"></path>
+            <path id="line" d="M202,133.5 L202,145.5 L208,145.5 L201,159.5 L194,145.5 L200,145.5 L200,133.5 L202,133.5 Z"></path>
+            <path id="line" d="M2,284.5 L2,301.5 L8,301.5 L1,315.5 L-6,301.5 L0,301.5 L0,284.5 L2,284.5 Z"></path>
         </g>
-        <g id="line" transform="translate(164.500000, 263.000000)">
+        <g id="line" transform="translate(167.000000, 219.000000)">
             <text id="t" font-family="Helvetica-BoldOblique, Helvetica" font-size="8" font-style="italic" font-weight="bold" fill="#6D7278">
-                <tspan x="109.5" y="18">N</tspan>
+                <tspan x="191" y="25">N</tspan>
             </text>
-            <path d="M118.504264,-1.00424623 L120.504246,-0.995735666 L120.499991,0.00425528062 L119.999991,117.504255 L119.995754,118.5 L14,118.5 L14,124.5 L0,117.5 L14,110.5 L14,116.5 L118.004,116.5 L118.500009,-0.00425528062 L118.504264,-1.00424623 Z" fill="#979797" fill-rule="nonzero"></path>
-        </g>
-        <g id="line" transform="translate(74.000000, 189.750000)">
             <text id="t" font-family="Helvetica-BoldOblique, Helvetica" font-size="8" font-style="italic" font-weight="bold" fill="#6D7278">
-                <tspan x="0" y="16.25">N</tspan>
+                <tspan x="108" y="35">Y</tspan>
+            </text>
+            <path d="M80.6135079,117.725791 L81.2742088,119.613508 L80.3303504,119.943858 L13.544,143.319 L15.52647,148.982103 L0,147 L10.901564,135.768086 L12.883,141.431 L79.6696496,118.056142 L80.6135079,117.725791 Z" fill="#979797" fill-rule="nonzero"></path>
+            <path d="M120.5,24 L120.5,43 L126.5,43 L119.5,57 L112.5,43 L118.5,43 L118.5,24 L120.5,24 Z" fill="#979797" fill-rule="nonzero"></path>
+            <path d="M194.018093,-1.01777152 L195.017932,-0.999839203 C200.183892,-0.907186661 202.78229,7.75413931 203.499133,24.9583695 C203.739646,30.7306854 203.864713,39.4972308 203.874391,49.1571557 L203.874407,51.5895333 C203.870957,55.1263394 203.852461,58.7568138 203.818922,62.382029 L203.802374,64.0544716 C203.740718,69.904192 203.639807,75.7004733 203.499654,81.0263067 C203.260154,90.1272978 201.556876,99.2524334 198.382239,106.216454 C194.446189,114.850744 188.46306,119.837481 180.398306,119.996097 L180,120 L174,120 L174,126 L160,119 L174,112 L174,118 L180,118 C193.646497,118 200.947434,101.984347 201.500346,80.9736933 C201.646852,75.4064711 201.750383,69.3230349 201.810952,63.20303 L201.826405,61.5333914 C201.828803,61.2550874 201.831113,60.9767978 201.833333,60.6985678 L201.845591,59.0302634 C201.862381,56.5299603 201.871981,54.0417807 201.874393,51.5985627 L201.874409,49.1715483 C201.864887,39.5331692 201.740354,30.7893146 201.500867,25.0416305 C200.842912,9.25070035 198.488639,1.24682788 195.100671,1.00512231 L194.982068,0.999839203 L193.982228,0.981906884 L194.018093,-1.01777152 Z" fill="#979797" fill-rule="nonzero"></path>
+        </g>
+        <g id="line" transform="translate(117.000000, 251.000000)" fill="#979797" fill-rule="nonzero">
+            <path d="M115.020322,36.0631145 L116.020094,36.0844977 C116.668567,36.0983674 117.32728,36.1094431 117.99623,36.1177244 L119.007332,36.1280503 L120.007299,36.1361282 L119.991143,38.1360629 L118.991176,38.127985 C118.306142,38.1224512 117.631302,38.1140966 116.966654,38.1029206 L115.977327,38.0840404 L114.977556,38.0626572 L115.020322,36.0631145 Z M130.970814,35.9716419 L131.028358,37.9708139 L130.028772,37.999586 C129.349105,38.0191495 128.677057,38.036611 128.012626,38.0519704 L127.021693,38.0734327 L126.021897,38.0936126 L125.981537,36.0940198 L126.981333,36.07384 C127.634294,36.0606606 128.294895,36.0453897 128.963136,36.028027 L129.971228,36.000414 L130.970814,35.9716419 Z M104.116192,35.4090016 L105.111871,35.5018612 C105.827335,35.5685873 106.562233,35.6300587 107.316554,35.6862704 L108.077348,35.7407287 L109.074997,35.8092585 L108.937938,37.8045566 L107.940288,37.7360268 C107.161041,37.6824992 106.401083,37.6235933 105.660404,37.5593038 L104.926152,37.4932197 L103.930472,37.4003601 L104.116192,35.4090016 Z M93.4629847,33.5017213 L94.4292717,33.7591884 C95.1385308,33.9481704 95.8905831,34.1260847 96.6853411,34.2928432 L97.2894156,34.415819 L98.2704664,34.6095696 L97.8829651,36.5716712 L96.9019142,36.3779206 C96.0525475,36.2101766 95.2453609,36.0302841 94.480267,35.8381551 L93.9143376,35.6917626 L92.9480505,35.4342955 L93.4629847,33.5017213 Z M84.2665578,28.3823387 L85.0458027,29.0090582 C85.6698345,29.5109452 86.2949434,29.9745251 86.9210859,30.3998759 L87.390886,30.7117222 L88.2299933,31.2556881 L87.1420615,32.9339028 L86.3029542,32.3899368 C85.6297757,31.9535372 84.9595655,31.4774485 84.29228,30.9617487 L83.7923637,30.567548 L83.0131187,29.9408285 L84.2665578,28.3823387 Z M70.5,12 L84.0552827,19.8265134 L79.139,23.072 L79.4945345,23.4966967 L80.1396418,24.2607887 L78.6114577,25.5510032 L77.9663505,24.7869112 C77.7979223,24.5874178 77.6296666,24.3852576 77.4615825,24.1804306 L72.3719589,27.5401342 L70.5,12 Z"></path>
+            <path d="M30.3770096,-1.36303476 L31.3630348,0.377009614 L30.4930126,0.870022186 L12.673,10.967 L15.6313986,16.1879793 L0,17 L8.7292226,4.00766869 L11.687,9.227 L29.5069874,-0.870022186 L30.3770096,-1.36303476 Z"></path>
+        </g>
+        <g id="line" transform="translate(76.000000, 176.000000)">
+            <text id="t" font-family="Helvetica-BoldOblique, Helvetica" font-size="8" font-style="italic" font-weight="bold" fill="#6D7278">
+                <tspan x="0" y="16.25">Y</tspan>
             </text>
             <path id="l" d="M9.75673378,-0.506688738 L11.7566887,-0.493266221 L11.7499775,0.506711258 L11.344,61.007 L17.3438,61.0472941 L10.25,75 L3.34411526,60.9533365 L9.344,60.993 L9.75002252,0.493288742 L9.75673378,-0.506688738 Z" fill="#979797" fill-rule="nonzero"></path>
         </g>
-        <g id="line" transform="translate(160.000000, 148.000000)">
+        <g id="line" transform="translate(162.000000, 139.000000)">
             <text id="t" font-family="Helvetica-BoldOblique, Helvetica" font-size="8" font-style="italic" font-weight="bold" fill="#6D7278">
-                <tspan x="15" y="8">Y</tspan>
+                <tspan x="15" y="8">N</tspan>
             </text>
             <path id="l" d="M36,5 L50,12 L36,19 L36,13 L-1,13 L-1,11 L36,11 L36,5 Z" fill="#979797" fill-rule="nonzero"></path>
         </g>
-        <g id="im" transform="translate(5.000000, 5.000000)">
+        <g id="im" transform="translate(7.000000, 5.000000)">
             <rect id="r" fill="#0050BD" x="0" y="0" width="160" height="30" rx="15"></rect>
             <text id="t" font-family="Helvetica-Oblique, Helvetica" font-size="14" font-style="italic" font-weight="normal" fill="#FFFFFF">
                 <tspan x="23" y="20">IncomingMessage</tspan>
             </text>
         </g>
-        <g id="om" transform="translate(5.000000, 365.000000)">
+        <g id="om" transform="translate(7.000000, 350.000000)">
             <rect id="r" fill="#0050BD" x="0" y="0" width="160" height="30" rx="15"></rect>
             <text id="t" font-family="Helvetica-Oblique, Helvetica" font-size="14" font-style="italic" font-weight="normal" fill="#FFFFFF">
                 <tspan x="23" y="21">OutgoingMessage</tspan>
             </text>
         </g>
-        <g id="o-rr" transform="translate(10.000000, 65.000000)">
+        <g id="o-rr" transform="translate(12.000000, 65.000000)">
             <rect id="r" stroke="#FA6400" stroke-width="2" fill="#FFFFFF" x="1" y="1" width="148" height="34"></rect>
             <text id="t" font-family="Helvetica-Oblique, Helvetica" font-size="14" font-style="italic" font-weight="normal" fill="#6D7278">
                 <tspan x="30" y="22">reviseRequest</tspan>
             </text>
         </g>
-        <g id="o-msc" transform="translate(10.000000, 130.000000)">
-            <path d="M75,1.07703296 L2.6925824,30 L75,58.922967 L147.307418,30 L75,1.07703296 Z" id="r" stroke="#FA6400" stroke-width="2" fill="#FFFFFF"></path>
+        <g id="o-msc" transform="translate(12.000000, 126.000000)">
+            <path d="M75,1.05409255 L146.837722,25 L75,48.9459074 L3.16227766,25 L75,1.05409255 Z" id="r" stroke="#FA6400" stroke-width="2" fill="#FFFFFF"></path>
             <text id="t" font-family="Helvetica-Oblique, Helvetica" font-size="14" font-style="italic" font-weight="normal" fill="#6D7278">
-                <tspan x="25" y="34.9">mustSkipCache</tspan>
+                <tspan x="25" y="30">willApplyCache</tspan>
             </text>
         </g>
-        <g id="o-mwa" transform="translate(209.000000, 203.000000)">
-            <path d="M75,1.07703296 L2.6925824,30 L75,58.922967 L147.307418,30 L75,1.07703296 Z" id="r" stroke="#FA6400" stroke-width="2" fill="#FFFFFF"></path>
+        <g id="o-mwa" transform="translate(212.000000, 194.000000)">
+            <path d="M75,1.05409255 L146.837722,25 L75,48.9459074 L3.16227766,25 L75,1.05409255 Z" id="r" stroke="#FA6400" stroke-width="2" fill="#FFFFFF"></path>
             <text id="t" font-family="Helvetica-Oblique, Helvetica" font-size="14" font-style="italic" font-weight="normal" fill="#6D7278">
-                <tspan x="27" y="35">mustWaitAgent</tspan>
+                <tspan x="30" y="30">willAwaitReply</tspan>
             </text>
         </g>
-        <g id="i-pr" transform="translate(209.000000, 142.000000)">
+        <g id="i-pr" transform="translate(212.000000, 133.000000)">
             <rect id="r" stroke="#6AA400" stroke-width="2" fill="#FFFFFF" x="1" y="1" width="148" height="34"></rect>
             <text id="t" font-family="Helvetica-Oblique, Helvetica" font-size="14" font-style="italic" font-weight="normal" fill="#6D7278">
                 <tspan x="32" y="23">proxy request</tspan>
             </text>
         </g>
-        <g id="i-rh" transform="translate(210.000000, 65.000000)">
+        <g id="i-rh" transform="translate(212.000000, 65.000000)">
             <rect id="r" stroke="#6AA400" stroke-width="2" fill="#FFFFFF" x="1" y="1" width="148" height="34"></rect>
             <text id="t" font-family="Helvetica-Oblique, Helvetica" font-size="14" font-style="italic" font-weight="normal" fill="#6D7278">
                 <tspan x="15" y="23">key = request hash</tspan>
             </text>
         </g>
-        <g id="i-c" transform="translate(50.000000, 265.000000)">
+        <g id="i-c" transform="translate(52.000000, 250.000000)">
             <circle id="e" stroke="#6AA400" stroke-width="3" fill="#FFFFFF" cx="35" cy="35" r="33.5"></circle>
             <text id="t" font-family="Helvetica-BoldOblique, Helvetica" font-size="14" font-style="italic" font-weight="bold" fill="#6D7278">
                 <tspan x="13" y="40">Cache</tspan>
             </text>
         </g>
-        <g id="i-rc" transform="translate(45.000000, 215.000000)">
+        <g id="i-rc" transform="translate(47.000000, 200.000000)">
             <rect id="r" fill="#6AA400" x="0" y="0" width="80" height="24" rx="12"></rect>
             <text id="t" font-family="Helvetica-Oblique, Helvetica" font-size="12" font-style="italic" font-weight="normal" fill="#FFFFFF">
                 <tspan x="10" y="16">read cache</tspan>
             </text>
         </g>
-        <g id="i-wc" transform="translate(131.000000, 254.000000)">
+        <g id="i-wc" transform="translate(147.000000, 239.000000)">
             <rect id="矩形" fill="#6AA400" x="0" y="0" width="80" height="24" rx="12"></rect>
             <text id="write-cache" font-family="Helvetica-Oblique, Helvetica" font-size="12" font-style="italic" font-weight="normal" fill="#FFFFFF">
                 <tspan x="10" y="16">write cache</tspan>
             </text>
         </g>
-        <g id="i-tr" transform="translate(244.000000, 298.000000)">
+        <g id="i-ar" transform="translate(247.000000, 276.000000)">
+            <rect id="矩形" fill="#6AA400" x="0" y="0" width="80" height="24" rx="12"></rect>
+            <text id="await-reply" font-family="Helvetica-Oblique, Helvetica" font-size="12" font-style="italic" font-weight="normal" fill="#FFFFFF">
+                <tspan x="10" y="16">await reply</tspan>
+            </text>
+        </g>
+        <g id="i-tr" transform="translate(247.000000, 326.000000)">
             <rect id="r" fill="#6AA400" x="0" y="0" width="80" height="24" rx="12"></rect>
             <text id="t" font-family="Helvetica-Oblique, Helvetica" font-size="12" font-style="italic" font-weight="normal" fill="#FFFFFF">
                 <tspan x="10" y="16">temp reply</tspan>
