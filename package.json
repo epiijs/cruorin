@@ -6,7 +6,7 @@
   "scripts": {
     "play": "node start.js",
     "lint": "eslint .",
-    "test": "eslint . && nyc --reporter=lcov mocha test/index.js --exit",
+    "test": "rm -rf /tmp/cruorin && eslint . && nyc --reporter=lcov mocha test/index.js --exit",
     "lcov": "nyc report --reporter=text-lcov | coveralls"
   },
   "repository": {

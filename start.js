@@ -35,8 +35,27 @@ function startCacheServer() {
   server.listen(3002);
 }
 
+class ProxyServer extends Server {
+  reviseRequest(message) {
+    message.headers.host = message.headers['x-cruorin-host'];
+    delete message.headers['x-cruorin-host'];
+    return message;
+  }
+}
+
+function startProxyServer() {
+  const server = new ProxyServer({
+    rootdir: '/tmp/cruorin'
+  });
+  server.listen(3002);
+}
+
 (function main() {
-  startSlowServer();
-  startFastServer();
-  startCacheServer();
+  // cache / benchmark
+  // startFastServer();
+  // startSlowServer();
+  // startCacheServer();
+
+  // proxy
+  startProxyServer();
 }());
