@@ -42,7 +42,12 @@ const server = http.createServer((request, response) => {
 
 class Tester extends Server {
   reviseRequest(message) {
-    message.headers.host = message.headers.host.replace('9999', '8080');
+    const host = message.headers.host;
+    if (host === 'www.baidu.com') {
+      message.protocol = 'https';
+    } else {
+      message.headers.host = message.headers.host.replace('9999', '8080');
+    }
     return message;
   }
 

@@ -3,6 +3,7 @@ declare namespace cruorin {
     url: string,
     method: string,
     headers: any,
+    protocol: string
   }
 
   interface Options {

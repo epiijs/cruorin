@@ -4,9 +4,10 @@ const assert = require('assert');
 const fetch = require('node-fetch');
 const { server, Tester } = require('./server.js');
 
-function fetchProxy(path, method) {
+function fetchProxy(path, method, headers) {
   return fetch('http://localhost:9999' + path, {
-    method: method || 'GET'
+    method: method || 'GET',
+    headers: headers
   });
 }
 
@@ -17,10 +18,14 @@ function assertStatus(status) {
   };
 }
 
-function assertText(expectedText) {
+function assertText(expectedText, loose) {
   return (response) => {
     return response.text().then(text => {
-      assert.strictEqual(text, expectedText);
+      if (loose) {
+        assert.ok(text.indexOf(expectedText) >= 0);
+      } else {
+        assert.strictEqual(text, expectedText);
+      }
     });
   };
 }
@@ -79,5 +84,11 @@ describe('simple proxy', () => {
   it('try to POST, failed', () => {
     return fetchProxy('/try-to-post', 'POST')
       .then(assertStatus(405));
+  });
+
+  it('proxy other', () => {
+    return fetchProxy('/', 'GET', { host: 'www.baidu.com' })
+      .then(assertStatus(200))
+      .then(assertText('replace("https://"', true));
   });
 });
